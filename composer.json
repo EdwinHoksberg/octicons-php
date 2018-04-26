@@ -1,0 +1,29 @@
+{
+    "name": "edwinhoksberg/octicons-php",
+    "description": "A simple PHP library for displaying the Github Octicons font icons in svg format.",
+    "keywords": ["octicons", "github", "icons", "svg"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edwin Hoksberg",
+            "email": "mail@edwinhoksberg.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Octicons\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">= 7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "mockery/mockery": "^1.0",
+        "twig/twig": "^2.4"
+    },
+    "suggest": {
+        "twig/twig": "A helper function is available for twig for creating icons easily in twig templates."
+    }
+}
