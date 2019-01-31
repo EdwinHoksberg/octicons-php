@@ -44,7 +44,7 @@ SVG
         $this->assertSame(<<<SVG
 <svg version="1.1"
     aria-hidden="true"
-    class="octicon-gear test extra-class background-red"
+    class="octicon octicon-gear test extra-class background-red"
     viewBox="0 0 14 16"
     width="14"
     height="16"
@@ -61,7 +61,7 @@ SVG
         $this->assertSame(<<<SVG
 <svg version="1.1"
     aria-hidden="true"
-    class="octicon-gear test background-red"
+    class="octicon octicon-gear test background-red"
     viewBox="0 0 14 16"
     width="14"
     height="16"
@@ -85,7 +85,7 @@ SVG
         $this->assertSame(<<<SVG
 <svg version="1.1"
     aria-hidden="true"
-    class="octicon-gear"
+    class="octicon octicon-gear"
     viewBox="0 0 14 16"
     width="42"
     height="48"
@@ -104,7 +104,7 @@ SVG
         $this->assertSame(<<<SVG
 <svg version="1.1"
     aria-hidden="true"
-    class="octicon-gear"
+    class="octicon octicon-gear"
     viewBox="0 0 14 16"
     width="14"
     height="16"
@@ -123,7 +123,7 @@ SVG
         $this->assertSame(<<<SVG
 <svg version="1.1"
     aria-hidden="true"
-    class="octicon-gear background-gray extra"
+    class="octicon octicon-gear background-gray extra"
     viewBox="0 0 14 16"
     width="14"
     height="16"
@@ -143,7 +143,7 @@ SVG
         $this->assertSame(<<<SVG
 <svg version="1.1"
     aria-hidden="true"
-    class="octicon-gear background-gray extra"
+    class="octicon octicon-gear background-gray extra"
     viewBox="0 0 14 16"
     width="42"
     height="48"
