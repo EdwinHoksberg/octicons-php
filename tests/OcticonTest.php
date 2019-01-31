@@ -19,7 +19,7 @@ class OcticonTest extends \PHPUnit\Framework\TestCase
         $this->assertSame(<<<SVG
 <svg version="1.1"
     aria-hidden="true"
-    class="octicon-gear"
+    class="octicon octicon-gear"
     viewBox="0 0 14 16"
     width="14"
     height="16"
