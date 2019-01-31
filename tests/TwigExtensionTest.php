@@ -13,7 +13,7 @@ class TwigExtensionTest extends \PHPUnit\Framework\TestCase
         $this->assertSame(<<<SVG
 <svg version="1.1"
     aria-hidden="true"
-    class="octicon-gear"
+    class="octicon octicon-gear"
     viewBox="0 0 14 16"
     width="14"
     height="16"
@@ -35,7 +35,7 @@ SVG
         $this->assertSame(<<<SVG
 <svg version="1.1"
     aria-hidden="true"
-    class="octicon-gear test red"
+    class="octicon octicon-gear test red"
     viewBox="0 0 14 16"
     width="28"
     height="32"
