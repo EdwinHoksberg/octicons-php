@@ -91,7 +91,7 @@ class Icon
         return <<<SVG
 <svg version="1.1"
     aria-hidden="true"
-    class="octicon-{$this->getName()}{$extraClasses}"
+    class="octicon octicon-{$this->getName()}{$extraClasses}"
     viewBox="0 0 {$this->getWidth()} {$this->getHeight()}"
     width="{$ratioWidth}"
     height="{$ratioHeight}"
