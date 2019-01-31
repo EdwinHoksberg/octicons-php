@@ -1,4 +1,5 @@
-# Octicons-PHP [![Build Status](https://travis-ci.org/EdwinHoksberg/octicons-php.svg?branch=master)](https://travis-ci.org/EdwinHoksberg/octicons-php) [![Coverage Status](https://coveralls.io/repos/github/EdwinHoksberg/octicons-php/badge.svg?branch=master)](https://coveralls.io/github/EdwinHoksberg/octicons-php?branch=master)[![Packagist](https://img.shields.io/packagist/dt/edwinhoksberg/octicons-php.svg?style=flat)]
+# Octicons-PHP [![Build Status](https://travis-ci.org/EdwinHoksberg/octicons-php.svg?branch=master)](https://travis-ci.org/EdwinHoksberg/octicons-php) [![Coverage Status](https://coveralls.io/repos/github/EdwinHoksberg/octicons-php/badge.svg?branch=master)](https://coveralls.io/github/EdwinHoksberg/octicons-php?branch=master) [![Packagist](https://img.shields.io/packagist/dt/edwinhoksberg/octicons-php.svg?style=flat)](https://packagist.org/packages/edwinhoksberg/octicons-php)
+
 A simple PHP library for displaying the [Github Octicons](https://octicons.github.com/) font icons in svg format.
 
 ## Installation
