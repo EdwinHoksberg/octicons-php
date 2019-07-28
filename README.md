@@ -47,7 +47,7 @@ $options->addClass(['color-blue', 'extra-class']);
 // change the icon size:
 $options->setRatio(2);
 
-$icon = $octicon->icon('gear');
+$icon = $octicon->icon('gear', $options);
 
 echo 'Icon width: '.$icon->getWidth();   // 28
 echo 'Icon height: '.$icon->getHeight(); // 32
