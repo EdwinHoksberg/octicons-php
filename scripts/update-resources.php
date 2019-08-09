@@ -6,7 +6,7 @@
  * so that new icons can be used automaticly.
  */
 
-$packageName = 'octicons';
+$packageName = '@primer/octicons';
 $outputDir = __DIR__.'/../resources/';
 
 echo "Checking latest package version...\n";
