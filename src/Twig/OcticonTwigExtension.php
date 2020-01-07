@@ -4,8 +4,9 @@ namespace Octicons\Twig;
 
 use Octicons\Octicon;
 use Octicons\Options;
+use Twig\Extension\AbstractExtension;
 
-class OcticonTwigExtension extends \Twig_Extension
+class OcticonTwigExtension extends AbstractExtension
 {
     public function getFunctions(): array
     {
