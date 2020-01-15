@@ -16,7 +16,7 @@ $packageInfo = json_decode($packageInfo, true);
 $packageVersion = $packageInfo['dist-tags']['latest'];
 
 echo "Downloading new build... [version={$packageVersion}]\n";
-$packageArchive = file_get_contents("https://registry.npmjs.org/{$packageName}/-/{$packageName}-{$packageVersion}.tgz");
+$packageArchive = file_get_contents($packageInfo['versions'][$packageVersion]['dist']['tarball']);
 
 file_put_contents($outputDir.'update.tgz', $packageArchive);
 
