@@ -22,7 +22,7 @@
         "phpunit/phpunit": "^6.5",
         "mockery/mockery": "^1.0",
         "twig/twig": "^2.4",
-        "php-coveralls/php-coveralls": "^2.0"
+        "php-coveralls/php-coveralls": "~2.1.0"
     },
     "suggest": {
         "twig/twig": "A helper function is available for twig for creating icons easily in twig templates."
