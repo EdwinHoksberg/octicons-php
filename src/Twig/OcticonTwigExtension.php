@@ -5,13 +5,16 @@ namespace Octicons\Twig;
 use Octicons\Octicon;
 use Octicons\Options;
 use Twig\Extension\AbstractExtension;
+use Twig\Markup;
+use Twig\TwigFunction;
+
 
 class OcticonTwigExtension extends AbstractExtension
 {
     public function getFunctions(): array
     {
         return [
-            new \Twig_Function('octicon', function (string $name, $classes = '', int $ratio = 1) {
+            new TwigFunction('octicon', function (string $name, $classes = '', int $ratio = 1) {
                 $octicon = new Octicon();
                 $options = new Options();
 
@@ -21,7 +24,7 @@ class OcticonTwigExtension extends AbstractExtension
 
                 $options->setRatio($ratio);
 
-                return new \Twig_Markup($octicon->icon($name, $options)->toSvg(), 'UTF-8');
+                return new Markup($octicon->icon($name, $options)->toSvg(), 'UTF-8');
             }),
         ];
     }
