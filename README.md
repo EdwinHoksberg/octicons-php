@@ -60,9 +60,9 @@ A simple twig function is available for those who are using the [Twig templating
 ```
 Display an icon: {{ octicon("gear") }}
 
-Display an icon with extra css classes: {{ octicon("gear", ['classes' => ['background-red']]) }}
+Display an icon with extra css classes: {{ octicon("gear", 'background-red') }}
 
-Display an extra large icon: {{ octicon("gear", ['ratio' => 2]) }}
+Display an extra large icon: {{ octicon("gear", '', 2) }}
 ```
 
 ## Tests
