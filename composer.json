@@ -1,7 +1,12 @@
 {
     "name": "edwinhoksberg/octicons-php",
     "description": "A simple PHP library for displaying the Github Octicons font icons in svg format.",
-    "keywords": ["octicons", "github", "icons", "svg"],
+    "keywords": [
+        "octicons",
+        "github",
+        "icons",
+        "svg"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
