@@ -12,6 +12,11 @@ class Options
     /**
      * @var int
      */
+    private $height = 16;
+
+    /**
+     * @var int
+     */
     private $ratio = 1;
 
     /**
@@ -68,6 +73,26 @@ class Options
     public function setRatio(int $ratio): Options
     {
         $this->ratio = $ratio;
+
+        return $this;
+    }
+
+    /**
+     * @return int
+     */
+    public function getHeight(): int
+    {
+        return $this->height;
+    }
+
+    /**
+     * @param int $height
+     *
+     * @return Options
+     */
+    public function setHeight(int $height): Options
+    {
+        $this->height = $height;
 
         return $this;
     }

@@ -1,5 +1,5 @@
 {
-    "name": "edwinhoksberg/octicons-php",
+    "name": "saiplex/octicons-php",
     "description": "A simple PHP library for displaying the Github Octicons font icons in svg format.",
     "keywords": [
         "octicons",

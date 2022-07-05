@@ -11,7 +11,7 @@ class OcticonTwigExtension extends AbstractExtension
     public function getFunctions(): array
     {
         return [
-            new TwigFunction('octicon', function (string $name, $classes = '', int $ratio = 1) {
+            new TwigFunction('octicon', function (string $name, $classes = '', int $height = 16, int $ratio = 1) {
                 $octicon = new Octicon();
                 $options = new Options();
 
@@ -20,6 +20,7 @@ class OcticonTwigExtension extends AbstractExtension
                 }
 
                 $options->setRatio($ratio);
+                $options->setHeight($height);
 
                 return new Markup($octicon->icon($name, $options)->toSvg(), 'UTF-8');
             }),

@@ -62,7 +62,9 @@ Display an icon: {{ octicon("gear") }}
 
 Display an icon with extra css classes: {{ octicon("gear", 'background-red') }}
 
-Display an extra large icon: {{ octicon("gear", '', 2) }}
+Display 24px version of icon (default: 16px) : {{ octicon("gear", '', 24) }}
+
+Display an extra large icon: {{ octicon("gear", '', 16, 2) }}
 ```
 
 ## Tests

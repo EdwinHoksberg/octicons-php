@@ -35,10 +35,12 @@ class Icon
      */
     public function __construct(array $iconData, Options $options)
     {
+        $data = $iconData['heights'][$options->getHeight()];
+
         $this->name = $iconData['name'];
-        $this->width = $iconData['width'];
-        $this->height = $iconData['height'];
-        $this->svgPath = $iconData['path'];
+        $this->width = $data['width'];
+        $this->height = $options->getHeight();
+        $this->svgPath = $data['path'];
 
         $this->options = $options;
     }
