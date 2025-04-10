@@ -229,7 +229,7 @@ class Octicon
      * @throws OcticonException
      * @throws DataFileException
      */
-    public function icon(string $iconName, Options $options = null): Icon
+    public function icon(string $iconName, ?Options $options = null): Icon
     {
         self::loadDataFileContent();
 
